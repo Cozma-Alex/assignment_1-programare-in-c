@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+        int a,b;
+	float suma,medie,suma_patrate;
+        printf("a= ");
+        scanf("%d",&a);
+        printf("b= ");
+        scanf("%d",&b);
+	suma=a+b;
+	medie=(suma)/2;
+	suma_patrate=a*a+b*b;
+	printf("Suma este:%4.0f \n",suma);
+	printf("Media aritmetica este:%4.2f \n", medie);
+	printf("Suma patratelor este:%4.0f \n",suma_patrate);
+}
+
+
