@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+float a,b,c,d,e,maxim,minim;
+scanf("%f",&a);
+scanf("%f",&b);
+scanf("%f",&c);
+scanf("%f",&d);
+scanf("%f",&e);
+maxim = a;
+minim = a;
+if(b > maxim)
+	maxim = b;
+if(c > maxim)
+	maxim = c;
+if(d > maxim)
+	maxim = d;
+if(e > maxim)
+	maxim = e;
+if(b < minim)
+	minim = b;
+if(c < minim)
+	minim = c;
+if(d < minim)
+	minim = d;
+if(e < minim)
+	minim = e;
+printf("Maximul este:%4.2f \n",maxim);
+printf("Minimul este:%4.2f \n",minim);
+}
